@@ -1,0 +1,302 @@
+/* Start Main Rule */ 
+*
+{
+    box-sizing: border-box;
+    perspective: 500px
+}
+body
+{
+    color: #686e71;
+    font-family: 'Cairo', sans-serif;
+}
+.container
+{
+    width: 1170px;
+    margin:auto;
+    overflow: hidden;
+}
+/* End Main Rule */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start My framwork */
+h1 , h2 , h3    {margin: 0px;padding: 0px;color:#666;text-transform: uppercase;}
+p               {line-height: 1.7;color: #999;}
+button          { background: none;border: 1px solid #fff;color:#FFF;padding: 7 20;text-transform: uppercase}
+/* End My framwork */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Header */
+.header
+{
+    background-color: #2f2f2f;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase
+}
+.header .slider 
+{
+    height: 450px;
+    background-image: url(../images/slider%202.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header .slider .container
+{
+    padding: 277 0 0 55px ;
+}
+.header .slider h1
+{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    color: #FFF;
+}
+.header .slider button {padding: 7 20;margin: 40 0 0 0}
+.header .nav-bar {height: 50px;width: 100%;background-color: #252f31}
+.header .nav-bar h2:first-of-type
+{
+    background-color: #505050;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #FFF;
+    padding: 1 0 0 0;
+    float: left;
+    margin: 10px 0px;
+    color: #FFF;
+}
+.header .nav-bar h2:last-of-type
+{
+    float: left;
+    margin: 10 0 10 15;
+    color: #FFF;
+}
+.header .nav-bar h2 span
+{
+    color: #10c376;
+    font-weight: bolder;
+}
+.header .nav-bar ul
+{
+    list-style: none;
+    float: right; 
+}
+.header .nav-bar li
+{
+    display: inline;
+    margin: 10px 0px 10px 20px;
+    cursor: default;
+}
+.header .nav-bar li:hover{color: #10c376;cursor:pointer}
+/* End Header */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Features */
+.features {overflow: hidden}
+.features .feat
+{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 60 0;
+}
+/* End Features */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start About Me */
+.about-me
+{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about-me .img
+{
+    float: left;
+    width: 40%;
+    height: 555px;
+    background-image: url(../images/portrait.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about-me .info
+{
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    padding: 90 0 90 90 ;
+    
+}
+.about-me .info > div
+{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+
+}
+.about-me .info div .cont
+{
+    margin: 0 0 0 50;
+}
+.about-me .info div i
+{
+    float: left;
+    margin: -2px 0;
+    color: #10c376;  
+}
+.scale
+{
+    transform: scale(1.2)
+}
+/* End About Me */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start My skills */
+.my-skills {background-color: #ffffff;overflow: hidden}
+.my-skills .skills
+{
+    float:left;
+    width: 50%;
+    margin: 60 0;
+}
+.my-skills .skills p {padding: 10 0}
+.my-skills .skills p:last-of-type {padding: 5 0}
+.my-skills .skills button{border:2px solid #10c376;color:#10c376;padding: 10 22;}
+.my-skills .progress{float: left;width: 50%;margin: 70 0;padding: 0 0 0 80}
+.my-skills .progress div{height: 30px;width: 100%;margin: 20 0 40 0;}
+.my-skills .progress div span
+{
+    height: 30px;
+    background-color: 10c376;
+    color:#FFF;
+    text-align: right;
+    display: inline-block;
+    padding: 5 10 0 0 ; 
+    
+}
+/* End My skills */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Resume */
+.resume
+{
+    overflow: hidden;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 70 0
+    
+}
+.resume p{margin: 30 0}
+.resume button{border:2px solid #10c376;color:#10c376;padding: 10 22;}
+/* End Resume */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start My Education */
+.my-education {overflow: hidden;background-color: #FFF}
+.my-education .education
+{
+    width: 50%;
+    float: left;
+    margin: 70 0;
+    padding: 0 50 0 0;
+}
+.my-education .education h1 {margin: 0 0 30 0}
+.my-education .education p {margin: 25 0;}
+.my-education .licences  {width: 50%;float: left;}
+.my-education .licences h3 {margin: 140 0 0 0}
+.my-education .licences h3:last-of-type {margin: 70 0 0 0 ;}
+.my-education .licences p {margin: 12 0 16 0}
+.my-education .licences span
+{
+    font-size: 14px;
+    color: #FFF;
+    background-color:#10c376;
+    padding: 5 10;
+}
+.my-education hr {margin: 30 0}
+.my-education .work-places {width: 50%;float: left}
+.my-education .work-places h3:first-of-type { margin: 140 0 0 0}
+.my-education .work-places h3 { margin: 50 0 0 0}
+.my-education .work-places p {margin: 20 0 20 0}
+.my-education .work-places p:last-of-type {margin: 20 0 80 0}
+.my-education .work-places span{font-size: 14px;color: #FFF;background-color:#10c376;padding: 5 10;}
+/* End My Education */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Testimonials */
+.testimonials
+{
+    overflow: hidden;
+    background-color:#f2f2f2;
+    text-align: center;
+    padding: 60 0;
+}
+
+.testimonials q {line-height: 1.7;color: #999;font-style: italic}
+.testimonials ul{list-style: circle;display: inline-flex;padding: 0 578px}
+.testimonials ul li{padding:  0 16 0 0;color: #10c376}
+.testimonials ul li{padding:  0 16 0 0;color: #10c376}
+/* End Testimonials */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Portofilo */
+.portofilo
+{
+    overflow: hidden;
+    background-color:#FFF;
+    text-align: center;
+    padding: 70 0 70 0;
+}
+.portofilo h1{margin: 0 0 30 0}
+.portofilo p{margin: 0 0 60 0}
+.portofilo .gallery > div
+{
+    width: 33.333333%;
+    float: left;
+    margin: 0 0 10 0;
+}
+.portofilo .gallery > div img
+{
+    width: 92%;
+    margin: 10px;
+    height: 322px;
+}
+/* End Portofilo */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Contact Me */
+.contact-me {overflow: hidden;background-color:#252f31}
+.contact-me .contact {width: 50%;float: left;padding: 70 70 70 0}
+.contact-me .contact h1 {color: #FFF;margin: 0 0 30 0}
+.contact-me .contact p {padding: 15 0}
+
+.contact-me form {width: 50%;float: left;padding: 90 0 70 0}
+.contact-me form h5 {color: #999}
+.contact-me form textarea {height: 300px}
+.contact-me form input,textarea
+{
+    width: 100%;
+    background-color:#656869;
+    border: none;
+    height: 40px;
+    color: #FFF;
+    font-size: 30}
+.contact-me form button
+{
+    border:none;
+    background-color:#191e22;
+    padding: 15 30;
+    margin: 40 0 0 0; 
+    
+}
+/* End Contact Me */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Start Footer */
+.footer
+{
+    overflow: hidden;
+    background-color:#191e22;
+    text-align: center;
+    padding: 40 0;
+    text-transform: uppercase;
+    
+}
+.footer i {margin: 0 10 0 0}
+.footer i:hover {margin: 0 10 0 0;color: #FFF;cursor: pointer}
+
+
+/* End Footer */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Finaly End My Frist Project */
